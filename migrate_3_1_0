@@ -1,0 +1,26 @@
+#!/bin/bash
+echo "export migration"
+svn export https://svn.logaster.com/trunk/Main/Source/Logaster.Blog/migation/3.1.0 3.1.0 --force
+
+echo "Copy template files"
+cp 3.1.0/files/footer_tips_root.php ../blog/wp-content/themes/ar2project/
+cp 3.1.0/files/footer_tips_single.php ../blog/wp-content/themes/ar2project/
+cp 3.1.0/files/header_tips_root.php ../blog/wp-content/themes/ar2project/
+cp 3.1.0/files/header_tips_single.php ../blog/wp-content/themes/ar2project/
+cp 3.1.0/files/page_tips_root.php ../blog/wp-content/themes/ar2project/
+cp 3.1.0/files/page_tips_single.php ../blog/wp-content/themes/ar2project/
+cp 3.1.0/files/index.php ../blog/
+cp 3.1.0/files/add_tips_in_db.php ../blog/
+
+
+echo "Copy CSS files in theme ar2project"
+cp 3.1.0/files/css/tips_root.css ../blog/wp-content/themes/ar2project/css
+cp 3.1.0/files/css/tips_single.css ../blog/wp-content/themes/ar2project/css
+
+echo "Run script for add pages"
+sudo -u www-data wp eval-file ../blog/add_tips_in_db.php --path=../blog
+
+echo "Copy images in uploads folder"
+cp -r 3.1.0/files/uploads ../blog/wp-content/
+chown -R www-data:www-data ../blog/wp-content/uploads/
+chmod -R 755 ../blog/wp-content/uploads/

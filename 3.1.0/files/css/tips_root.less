@@ -1,0 +1,159 @@
+
+.tips-root-page
+{
+    font-size: 14px;
+    color: #333333;
+    display: flex;
+    margin: auto;
+    max-width: 1500px;
+    min-width: 1200px;
+
+    a
+    {
+        text-decoration: none;
+    }
+
+    @media (min-width: 1200px)
+    {
+        .container
+        {
+            width: 100%;
+        }
+    }
+
+    .container
+    {
+        .btn-link
+        {
+            background-color: #63c383;
+            color: #ffffff;
+            border-radius: 5px;
+            padding: 8px 15px;
+            text-transform: uppercase;
+
+            &:hover
+            {
+                background-color: #18c347;
+                text-decoration: none;
+            }
+        }
+
+        .page-title
+        {
+            padding-bottom: 60px;
+
+            .page-links
+            {
+                font-size: 16px;
+                color: #A3A3A3;
+                padding-top: 45px;
+
+                a
+                {
+                    color: #A3A3A3;
+                }
+            }
+
+            .title
+            {
+                font-size: 44px;
+                padding-bottom: 40px;
+            }
+
+            .description
+            {
+                font-size: 18px;
+                padding-bottom: 60px;
+            }
+
+            .social-buttons
+            {
+                width: 700px;
+                margin: auto;
+                padding-bottom: 40px;
+
+                .entry-social
+                {
+                    display: flex;
+
+                    .addthis_toolbox
+                    {
+                        margin: auto;
+                    }
+                }
+            }
+        }
+
+        .content
+        {
+            width: 1200px;
+            margin: auto;
+            color: #333333;
+
+            hr
+            {
+                margin-bottom: 60px;
+            }
+
+            .tips
+            {
+                padding-bottom: 60px;
+                display: flex;
+                align-content: flex-start;
+                flex-wrap: wrap;
+
+                .parent-tip
+                {
+                    font-size: 28px;
+                    text-align: center;
+                    padding-bottom: 18px;
+                }
+
+                .child-tip
+                {
+                    padding-right: 20px;
+
+                    .logo-block
+                    {
+                        position: relative;
+                        width: 220px;
+                        height: 180px;
+                        margin-bottom: 10px;
+                        border: 1px solid #DBDBDB;
+
+                        img
+                        {
+                            height: 178px;
+                        }
+
+                        .logotype
+                        {
+                            margin: auto;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            bottom: 0;
+                            right: 0;
+                        }
+                    }
+
+                    .tip-name
+                    {
+                        font-size: 18px;
+                    }
+
+                    .tip-creation-date
+                    {
+                        font-size: 12px;
+                        padding-bottom: 20px;
+                    }
+
+
+                }
+            }
+
+        }
+
+
+    }
+}

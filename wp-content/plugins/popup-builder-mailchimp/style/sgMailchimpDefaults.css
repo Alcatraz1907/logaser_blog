@@ -1,0 +1,111 @@
+/* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
+#mc_embed_signup #sgMailchimpForm form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
+#mc_embed_signup #sgMailchimpForm h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
+#mc_embed_signup #sgMailchimpForm input {border: 1px solid #ABB0B2; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+#mc_embed_signup #sgMailchimpForm input[type=checkbox]{-webkit-appearance:checkbox;}
+#mc_embed_signup #sgMailchimpForm input[type=radio]{-webkit-appearance:radio;}
+#mc_embed_signup #sgMailchimpForm input:focus {border-color:#333;}
+#mc_embed_signup #sgMailchimpForm .sg-button {clear:both; background-color: #aaa; /*border: 0 none;*/ border-radius:4px; transition: all 0.23s ease-in-out 0s; color: #FFFFFF; cursor: pointer; display: inline-block; font-size:15px; font-weight: normal; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding: 0 22px; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+#mc_embed_signup #sgMailchimpForm .sg-button:hover {background-color:#777;}
+#mc_embed_signup #sgMailchimpForm .small-meta {font-size: 11px;}
+#mc_embed_signup #sgMailchimpForm .nowrap {white-space:nowrap;}
+
+#mc_embed_signup #sgMailchimpForm .mc-field-group {clear:left; position:relative; width:96%; padding-bottom:8px; min-height:50px;}
+#mc_embed_signup #sgMailchimpForm .size1of2 {clear:none; float:left; display:inline-block; width:46%; margin-right:4%;}
+* html #mc_embed_signup #sgMailchimpForm .size1of2 {margin-right:2%; /* Fix for IE6 double margins. */}
+#mc_embed_signup #sgMailchimpForm .mc-field-group label {display:block; margin-bottom:3px;}
+#mc_embed_signup #sgMailchimpForm .mc-field-group input {display:block; width:100%; padding:8px 0; text-indent:2%;}
+#mc_embed_signup #sgMailchimpForm .mc-field-group select {display:inline-block; width:99%;/* padding:5px 0;*/ margin-bottom:2px;}
+
+#mc_embed_signup #sgMailchimpForm .datefield, #mc_embed_signup #sgMailchimpForm .phonefield-us{padding:5px 0;}
+#mc_embed_signup #sgMailchimpForm .datefield input, #mc_embed_signup #sgMailchimpForm .phonefield-us input{display:inline; width:60px; margin:0 2px; letter-spacing:1px; text-align:center; padding:5px 0 2px 0;}
+#mc_embed_signup #sgMailchimpForm .phonefield-us .phonearea input, #mc_embed_signup #sgMailchimpForm .phonefield-us .phonedetail1 input{width:40px;}
+#mc_embed_signup #sgMailchimpForm .datefield .monthfield input, #mc_embed_signup .datefield .dayfield input{width:30px !important;}
+#mc_embed_signup #sgMailchimpForm .datefield label, #mc_embed_signup #sgMailchimpForm .phonefield-us label{display:none;}
+
+#mc_embed_signup #sgMailchimpForm .indicates-required {text-align:right; font-size:11px; margin-right:4%;}
+#mc_embed_signup #sgMailchimpForm .asterisk {color:#e85c41; font-size:150%; font-weight:normal; position:relative; top:5px;}     
+#mc_embed_signup #sgMailchimpForm .clear {clear:both;}
+
+#mc_embed_signup #sgMailchimpForm .mc-field-group.input-group ul {margin:0; padding:5px 0; list-style:none;}
+#mc_embed_signup #sgMailchimpForm .mc-field-group.input-group ul li {display:block; padding:3px 0; margin:0;}
+#mc_embed_signup #sgMailchimpForm .mc-field-group.input-group label {display:inline;}
+#mc_embed_signup #sgMailchimpForm .mc-field-group.input-group input {display:inline; width:auto; border:none;}
+
+#mc_embed_signup #sgMailchimpForm div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%; margin: 0 5%; clear: both;}
+#mc_embed_signup #sgMailchimpForm div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}
+#mc_embed_signup #sgMailchimpForm #mce-error-response {display:none;}
+#mc_embed_signup #sgMailchimpForm #mce-success-response {color:#529214; display:none;}
+#mc_embed_signup #sgMailchimpForm label.error {display:block; float:none; width:auto;text-align:left; padding:.5em 0;}
+
+#sgMailchimpForm #mc-embedded-subscribe {clear:both; width:auto; display:block; margin:1em 0 1em 5%;}
+#mc_embed_signup #sgMailchimpForm #num-subscribers {font-size:1.1em;}
+#mc_embed_signup #sgMailchimpForm #num-subscribers span {padding:.5em; border:1px solid #ccc; margin-right:.5em; font-weight:bold;}
+
+#mc_embed_signup #sgMailchimpForm #mc-embedded-subscribe-form div.mce_inline_error {display:inline-block; margin:2px 0 1em 0; padding:5px 10px; background-color:rgba(255,255,255,0.85); -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; font-size:14px; font-weight:normal; z-index:1; color:#e85c41;}
+#mc_embed_signup #sgMailchimpForm #mc-embedded-subscribe-form input.mce_inline_error {border:2px solid #e85c41;}
+
+.datepart.sgpb-input {
+    margin-bottom: 8px !important;
+}
+/*.datepart.sgpb-datepart.sgpb-input {
+	width: 30px !important;
+}*/
+
+/*.sg-mailchimp-email-wprrap.sgpb-required-field {
+    padding-bottom: 0px !important;
+}*/
+
+.sg-hide-element {
+	display: none;
+}
+
+.sgpb-alert-success {
+	color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.sgpb-alert {
+	padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.sgpb-alert-danger {
+	color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+/*Add default align for no conflict text align */
+
+#sgMailchimpForm {
+    text-align: left;
+}
+
+.sgpb-required-field .error {
+    color: red;
+}
+
+ul.sg-checkbox-group {
+    list-style: none;
+    padding: 0px;
+}
+
+.sg-submit-wrapper {
+	width: 96%;
+}
+
+#mc-embedded-subscribe {
+	margin-right: 0px !important;
+	padding: 0px !important;
+}
+
+form.sgMailchimpForm input {
+	-webkit-box-sizing: inherit !important;
+	-moz-box-sizing: inherit !important;
+	box-sizing: inherit !important;
+	display: inline-block !important;
+}

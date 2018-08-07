@@ -1,0 +1,109 @@
+/*
+    Document   : custom_style
+    Created on : Jul 24, 2013, 11:29:00 AM
+    Author     : mitrik
+    Description: custom style for current WP theme
+*/
+
+.left { float: left; }
+.right { float: right !important; }
+
+.logo {
+    padding: 3% 1.3em 1% 0.7em;
+}
+#header .blog-name a { display: block; }
+#header .blog-name a.blog_lnk {
+    border-left: 2px solid #111111;
+    font-size: 26px;
+    margin-left: 15px;
+    margin-top: 8px;
+    margin-bottom: 7px;
+    padding-left: 15px;
+}
+
+#header .blog-name span.hint {
+    margin: 0px;
+    padding-left: 18px;
+    margin-left: 16px;
+    float: left;
+    visibility: hidden;
+    margin-bottom: 5px;
+}
+
+#header .blog-name span.hint a {
+    color: #666666;
+    font-size: 50%;
+    text-decoration: underline;
+    text-transform: none;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+#header .blog-name .lnk_div:hover > span.hint { visibility: visible; }
+
+.tabs a { outline: none; }
+
+.ui-tabs-active a {
+    background-color: #F30303 !important;
+    color: #FFFFFF !important;
+}
+
+a:hover {
+	color: #F30303;
+}
+
+input[type=submit]:hover {
+	background: #F30303;
+}
+
+a.more-link:hover, .navigation a:hover, .comment-controls a:hover, a.post-edit-link:hover,
+.wp-pagenavi a:hover, .post-navigation a:hover span {
+	background: #F30303;
+}
+
+.tags a:hover, .tagcloud a:hover {
+	background: #F30303;
+}
+
+.navigation .current, .wp-pagenavi .current {
+    background: #F30303;
+}
+
+.post-navigation span {
+	background: #F30303;
+}
+
+#main-nav ul.menu li:hover, #main-nav ul.menu li a:hover {
+	border-bottom-color: #F30303;
+}
+
+#main-nav ul.menu ul a:hover {
+	background: #F30303;
+}
+
+#main-nav ul.menu ul ul a:hover {
+	background: #F30303;
+}
+
+.social-nav a:hover {
+	background-color: #F30303;
+}
+
+.multi-sidebar .tabs a:hover {
+	background: #F30303;
+}
+.multi-sidebar .tabs .ui-tabs-selected a {
+	background: #F30303;
+}
+
+.posts-node .entry-comments, .posts-quick .entry-comments {
+	background: url( images/sprites.png ) no-repeat -82px 8px #F30303;
+}
+
+.posts-slideshow ul.flex-direction-nav li a:hover {
+	background-color: #F30303;
+}
+
+ul.flex-direction-nav a { outline: none; }
+
+.widget .entry-summary { color: #666666; }

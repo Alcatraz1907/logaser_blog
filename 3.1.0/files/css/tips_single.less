@@ -1,0 +1,230 @@
+
+.tips-root-page
+{
+    font-size: 14px;
+    color: #333333;
+    display: flex;
+    margin: auto;
+    max-width: 1500px;
+    min-width: 1200px;
+
+    @media (min-width: 1200px)
+    {
+        .container
+        {
+            width: 100%;
+        }
+    }
+
+    .container
+    {
+        .btn-link
+        {
+            background-color: #63c383;
+            color: #ffffff;
+            border-radius: 5px;
+            padding: 8px 15px;
+            text-transform: uppercase;
+
+            &:hover
+            {
+                background-color: #18c347;
+                text-decoration: none;
+            }
+        }
+
+        .page-title
+        {
+            .page-links
+            {
+                font-size: 16px;
+                color: #A3A3A3;
+                padding-top: 45px;
+
+                a
+                {
+                    color: #A3A3A3;
+                }
+            }
+
+            .title
+            {
+                font-size: 44px;
+                padding-bottom: 60px;
+            }
+
+            .social-buttons
+            {
+                width: 700px;
+                margin: auto;
+                padding-bottom: 40px;
+
+                .entry-social
+                {
+                    display: flex;
+
+                    .addthis_toolbox
+                    {
+                        margin: auto;
+                    }
+                }
+            }
+        }
+
+        .content
+        {
+            width: 1200px;
+            margin: auto;
+            color: #333333;
+
+            .content-block
+            {
+                padding-bottom: 30px;
+                padding-top: 30px;
+
+                .title
+                {
+                    font-size: 28px;
+                    padding-bottom: 22px;
+                    margin: 0;
+                }
+
+                .description
+                {
+                    font-size: 18px;
+                    line-height: 30px;
+                    padding-bottom: 15px;
+                }
+
+                .logo-block
+                {
+                    //TODO animation hover image
+                    .background-logo
+                    {
+                        border: 1px solid #DBDBDB;
+                        //transform: scale(1.25);
+                    }
+
+                    //.logotype:hover
+                    //{
+                    //    transition: all 1.5s ease;
+                    //    transform: scale(1.1);
+                    //}
+
+                    .logotype
+                    {
+                        margin: auto;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        bottom: 0;
+                        right: 0;
+                    }
+                }
+            }
+
+            .example-logos
+            {
+                width: 1220px;
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 160px;
+
+                .logo-column
+                {
+                    display: flex;
+                    flex-direction: column;
+
+                    .logo-block
+                    {
+                        padding-bottom: 20px;
+                        position: relative;
+
+                        //.logotype:hover
+                        //{
+                        //    transition: all 1.5s ease;
+                        //    transform: scale(1.1);
+                        //}
+
+                        .logotype
+                        {
+                            margin: auto;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            bottom: 0;
+                            right: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .container-fluid
+        {
+            height: 240px;
+            padding-bottom: 80px;
+
+            .gallery-subject-page
+            {
+                .title
+                {
+                    font-size: 30px;
+                    color: #0BC359;
+                }
+
+                .description
+                {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .logo-creation-tips
+        {
+            padding-bottom: 40px;
+            color: #333333;
+
+            .title
+            {
+                font-size: 30px;
+                color: #0BC359;
+                text-align: center;
+            }
+
+            .description
+            {
+                text-align: center;
+                font-size: 18px;
+                padding-bottom: 40px;
+                color: #333333;
+            }
+
+            .tips-block
+            {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                align-content: flex-start;
+
+                .tips
+                {
+                    width: 180px;
+                    padding-bottom: 10px;
+
+
+                    .parent-tip
+                    {
+                        font-size: 14px;
+                        text-transform: uppercase;
+                    }
+
+                    .child-tips
+                    {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}

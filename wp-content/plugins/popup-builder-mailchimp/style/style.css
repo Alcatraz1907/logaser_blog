@@ -1,0 +1,64 @@
+.mailchimp-image {
+	background-image: url("../images/mailchimp.png");
+}
+
+
+.sg-mailchimp-connect-status {
+	display: inline-block !important;
+    padding: 3px 6px !important;
+    color: white !important;
+    font-size: 12px !important;
+    font-weight: bold;
+}
+
+.sg-mailchimp-connect-status.sg-mailchimp-not-connected {
+	background: gray;
+}
+
+.sg-mailchimp-connect-status.sg-mailchimp-connected {
+	background-color: limeGreen;
+}
+
+.sg-live-preview {
+	text-align: center;
+}
+
+.sg-mailchimp-selectbox {
+	width: 189px;
+}
+
+.sg-apikey-input-div {
+	display: inline-block;
+	width: 400px;
+	float: left;
+}
+
+.sg-show-apikey-div {
+	display: inline-block;
+	width: 100px;
+	background-color: #e0e0e0;
+	float: left;
+	height: 32px;
+	border: 2px solid #c9c9c9;
+    border-left: none;
+    box-sizing: border-box;
+    padding: 6px 0px 0px 17px;
+}
+
+#mailchimp_api_key {
+	border: 2px solid #c9c9c9;
+	height: 32px;
+}
+
+#sg-show-maichimp-apikey {
+	width: 24px;
+	height: 24px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: 24px 384px;
+
+}
+
+#sg-show-maichimp-apikey:checked:before {
+	margin: 0px 0px 0px -1px;
+}
